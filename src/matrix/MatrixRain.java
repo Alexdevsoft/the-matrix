@@ -12,7 +12,7 @@ public class MatrixRain extends JPanel {
     private final int height = 600;
     private final int fontSize = 20;
     private final int columns = width / fontSize;
-    private final char[] characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789".toCharArray();
+    private final char[] characters = "A!B@C@D#E$F%G¨&H*I^JçKaL&M#NdO;<P~Q>R@S#T*U>V$WeXtYfZp0#1@2$3*4!5?6q7h8b9".toCharArray();
     private final int[] yPositions = new int[columns];
     private final Random random = new Random();
 
