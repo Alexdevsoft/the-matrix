@@ -20,6 +20,9 @@ public class MatrixRain extends JPanel {
         setPreferredSize(new Dimension(width, height));
         setBackground(Color.BLACK);
         
+        for (int i = 0; i < columns; i++) {
+        	yPositions[i] = random.nextInt(height / fontSize);
+        }
         
         Timer timer = new Timer(50, e -> repaint());
         timer.start();
